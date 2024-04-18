@@ -186,3 +186,19 @@ transition-duration: 0.5s;
     padding: 20px;
     font-weight: bold;
 }
+#planos{
+    display: grid;
+    grid-auto-flow: column;
+    background-color: #e46f08;
+}
+.cards-plano{
+    margin-top: 200px;
+    background-color:#ffffff;
+    margin-left: 15px;
+}
+.cards-plano h2{
+font-size: 15px;
+}
+.cards-plano h1{
+    font-size: 20px;
+}
