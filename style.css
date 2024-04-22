@@ -320,12 +320,14 @@ flex-direction: row;
 #secao-video{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 #video{
-    margin-left: 0;
-    padding-left: 50px;
-    padding-right: 50px;
-    width: 400px;
+    width: 100%;
+    margin-top: 0;
+margin-left: 0;
+margin-right: 0;
+    
 }
 #titulo-video{
 font-size: medium;
@@ -349,26 +351,31 @@ margin-top: 0;
 #texto-menu-superior{
     font-size: small;
     text-align: center;
-    margin-left: 0;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #logo{ width: 30%;
 padding-top: 40px;
 }
+
+
 #planos{
     display:flex;
     flex-wrap: wrap;
 align-items: center;
+
 }
 
 #calendario{ 
     align-items: center;
-padding-left: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .cards-calendario{
-width: 450px;
+width: 350px;
 
 
 }
-.titulo-card-calendario{font-size: 10px;}
+.titulo-card-calendario{font-size: 7px;}
 
 }
