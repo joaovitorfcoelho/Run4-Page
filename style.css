@@ -378,4 +378,9 @@ width: 350px;
 }
 .titulo-card-calendario{font-size: 7px;}
 
+#observacao-calendario{
+    text-align: center;
+    align-items: center;
+}
+
 }
